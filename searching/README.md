@@ -27,3 +27,14 @@ function binarySearch ($array , $item){
  $testList = array(0, 1, 2, 8, 13, 17, 19, 32, 42);
  echo binarySearch($testList, 3) ? 'True' : 'False';
 ```
+# Linear Search -
+
+**Linear search** is a very simple search algorithm. In this type of search, a sequential search is made over all items one by one. Every item is checked and if a match is found then that particular item is returned, otherwise the search continues till the end of the data collection.
+but sometimes you might need to do some customization on the searching algorithm. Like- *'finding the last occurrence of the item in the list'* etc. This linear search implementation will help you to do that.
+
+#### Time Complexity Analysis
+- Worst Case - O(n)
+- Best Case - O(1)
+- Average Case - O(n)
+#### Space complexity 
+O(1)
