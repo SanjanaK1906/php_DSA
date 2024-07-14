@@ -33,8 +33,7 @@ function binarySearch ($array , $item){
 but sometimes you might need to do some customization on the searching algorithm. Like- *'finding the last occurrence of the item in the list'* etc. This linear search implementation will help you to do that.
 
 #### Time Complexity Analysis
-- Worst Case - O(n)
 - Best Case - O(1)
-- Average Case - O(n)
+- Average/ Worst Case - O(n)
 #### Space complexity 
 O(1)
